@@ -106,6 +106,7 @@
 		line-height: 1.5em;
 	}
 
+
 	sub {
 		font-size: 0.8em;
 		position: relative;
@@ -450,7 +451,7 @@
 
 /* Image */
 
-	.image {
+.image {
 		border-radius: 0.35em;
 		border: 0;
 		display: inline-block;
@@ -460,7 +461,6 @@
 		.image:before {
 			-moz-transition: opacity 0.2s ease-in-out;
 			-webkit-transition: opacity 0.2s ease-in-out;
-			-o-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			background: url("images/overlay.png");
@@ -469,7 +469,7 @@
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 0.2;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -482,7 +482,6 @@
 			.image.thumb:after {
 				-moz-transition: opacity 0.2s ease-in-out;
 				-webkit-transition: opacity 0.2s ease-in-out;
-				-o-transition: opacity 0.2s ease-in-out;
 				-ms-transition: opacity 0.2s ease-in-out;
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
@@ -538,7 +537,7 @@
 				width: 100%;
 			}
 
-		.image.fit, .excerpt img {
+		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
@@ -1024,9 +1023,14 @@
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
 	}
+	
+	#center-title{
+		margin: auto;
+		padding: 0em 0em 3em 0em;	
+	}	
 
-		#main > section {
-			border-top: solid 2px #efefef;
+	#main > section {
+		border-top: solid 2px #efefef;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
@@ -1262,3 +1266,5 @@
 	body.is-touch .poptrox-popup .closer {
 		opacity: 1.0 !important;
 	}
+
+body    {  background:#f7f7f7;}

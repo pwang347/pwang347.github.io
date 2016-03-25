@@ -17,7 +17,7 @@ layout: default
 
     <section>
 	<div>
-	    <header id="portfolio" class="major">
+	    <header class="major">
                 <h2>Portfolio</h2>
             </header>
 	    <p> Below are some of the projects I've been working on:
