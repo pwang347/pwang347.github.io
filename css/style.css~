@@ -936,7 +936,7 @@
 	#header {
 		background-color: #1f1815;
 		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../images/bg.png");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 100%;
@@ -1267,4 +1267,4 @@
 		opacity: 1.0 !important;
 	}
 
-body    {  background:#e9e9e9;}
+body    {  background:#f7f7f7;}
