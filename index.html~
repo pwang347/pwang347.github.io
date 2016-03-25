@@ -7,21 +7,19 @@ layout: default
 <div id="main">
     <section>
             <header class="major">
-                <h2>About Me</h2>
+                <h2><span class="icon fa-user"></span> About Me</h2>
             </header>
-		<p> I'm currently a first year student completing a Computer Science degree at the University of British Columbia.
+		<p>Hello, my name is Paul Wang. where I am currently completing my first year of a Bachelor's degree in Computer Science at the University of British Columbia.
 		</p>
-		<p> I like to make apps, draw and design my own video games.
+		<p> Aside from software development, my interests also include digital painting, game design and music composition. Feel free to explore my website and send me an email for any questions or if you find a bug on this site!
 		</p>
     </section>
 
     <section>
 	<div>
-	    <header class="major">
-                <h2>Portfolio</h2>
+	    <header id="portfolio" class="major">
+                <h2><span class="icon fa-folder-open-o"></span> Portfolio</h2>
             </header>
-	    <p> Below are some of the projects I've been working on:
-	    </p>	
 	</div>
         <div class="row">
             {% for post in site.posts %}
