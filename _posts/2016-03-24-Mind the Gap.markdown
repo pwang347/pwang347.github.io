@@ -2,7 +2,7 @@
 layout: post
 title: Mind the Gap (CPSC 210)
 ---
-<img src="/images/fulls/mindthegap-cover.jpg" class="fit image">
+<img src="/images/fulls/mindthegap-cover.png" class="fit image">
 
 <h1>Overview</h1>
 <table>
