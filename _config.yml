@@ -14,7 +14,7 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 # Replace the word 'example' with your username if you want to include the icon in the left sidebar
 # Delete the word 'example' if you don't want to include the icon in the left sidebar
 
-twitter_username:     
+resume_name: resume-for-web.pdf  
 github_username:      pwang347
 linkedin_username:    
 google_plus_username: 

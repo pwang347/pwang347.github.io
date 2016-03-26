@@ -5,13 +5,13 @@ layout: default
     <article>
         <header class="major">
             <h2 class="post-title">{{ page.title }}</h2>
-                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+                <p class="post-meta">{{ page.date | date: "%b %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
         </header>
 
         <section>
             {{ content }}
         </section>
-        
+        <br><br>
         <footer>
             <a href="/#portfolio" class="button">Back to Portfolio</a>
         </footer>

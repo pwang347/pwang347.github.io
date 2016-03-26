@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   	<head>
-  		<title>Paul Wang on GitHub</title>
+  		<title>Paul Wang</title>
   		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
   		<meta name="description" content="" />
   		<meta name="keywords" content="" />
@@ -21,7 +21,7 @@
 	<body id="top">
 
       <header id="header">
-          <a href="/" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
+          <a href="/#about" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
           <h1><strong>Hi! I'm Paul Wang</strong><br />
           A first year CS student at the <br />
           University of British Columbia</h1>
@@ -42,10 +42,10 @@
               </li>
               {% endif %}
 
-              {% if site.twitter_username %}
+              {% if site.resume_name %}
               <li>
-                <a href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter">
-                  <span class="label">Twitter</span>
+                <a href="/files/{{ site.resume_name }}" class="icon fa-file">
+                  <span class="label">Resume</span>
                 </a>
               </li>
               {% endif %}

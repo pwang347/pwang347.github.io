@@ -21,7 +21,7 @@
 	<body id="top">
 
       <header id="header">
-          <a href="/" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
+          <a href="/#about" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
           <h1><strong>Hi! I'm Paul Wang</strong><br />
           A first year CS student at the <br />
           University of British Columbia</h1>
@@ -33,19 +33,17 @@
         <!-- Footer -->
         <footer id="footer">
             <ul class="icons">
-
+	 {% if site.resume_name %}
+              <li>
+                <a href="/files/{{ site.resume_name }}" class="icon fa-file">
+                  <span class="label">Resume</span>
+                </a>
+              </li>
+              {% endif %}
               {% if site.github_username %}
               <li>
                 <a href="https://github.com/{{ site.github_username }}" class="icon fa-github">
                   <span class="label">GitHub</span>
-                </a>
-              </li>
-              {% endif %}
-
-              {% if site.twitter_username %}
-              <li>
-                <a href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter">
-                  <span class="label">Twitter</span>
                 </a>
               </li>
               {% endif %}

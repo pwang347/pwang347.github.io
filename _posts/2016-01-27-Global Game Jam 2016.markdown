@@ -27,9 +27,9 @@ The theme for this game jam was "Ritual". My team worked on a GearVR game called
 
 <h1>Responsibilities</h1>
 <ul>
-<li>Designed and implemented core logic (eg. collectible random spawn, collision events, next level conditions)</li>
+<li>Designed and implemented core logic (eg. collectible random spawn, random color, level clear)</li>
 <li>Designed helper class for screen fading</li>
+<li>Added bloom effects for camera</li>
 <li>Added particle systems</li>
 </ul>
-
 

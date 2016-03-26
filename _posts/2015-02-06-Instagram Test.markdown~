@@ -1,0 +1,34 @@
+---
+layout: post
+categories: update
+---
+
+<img src="/images/fulls/instagramtest-cover.jpg" class="fit image">
+
+<h1>Overview</h1>
+<table>
+<tr>
+<td><span class="icon fa-cog"></span>  Development</td>
+<td>Ruby, Rails, RubyMine, Bootstrap, Heroku, DropBox API</td></tr>
+<tr>
+<td><span class="icon fa-users"></span>  Team size</td>
+<td>Solo</td></tr>
+<tr>
+<td><span class="icon fa-tags"></span>  Category</td>
+<td>Learning Project</td></tr>
+<tr>
+<td><span class="icon fa-share-alt"></span>  Available links</td>
+<td><a href="http://instajams.herokuapp.com">Heroku App</a></td></tr>
+</table>
+
+<h1>Project description</h1>
+This was my first try at Ruby on Rails. For this project, I followed various tutorials and used gems such as Devise and Paperclip to achieve functionalities similar to Instagram. The uploaded images are stored to my DropBox account via the developer API.   
+
+(<i>Fun fact</i>: The sheer amount of Windows-only issues that I ran into during this project was enough to convince me to set up a virtual programming environment running on Ubuntu, which I am currently using to develop this Jekyll site.)
+
+<h1>Responsibilities</h1>
+<ul>
+<li>Followed tutorials, especially <a href="https://www.youtube.com/watch?v=MpFO4Zr0EPE">this one</a>, though a lot of Windows troubleshooting was required</li>
+<li>Hosted app on Heroku</li>
+<li>Configured project to work with DropBox</li>
+</ul>

@@ -932,15 +932,14 @@
 		}
 
 /* Header */
-
 	#header {
 		background-color: #1f1815;
 		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../images/bg.png");
+		background-image: url("images/overlay50.png"), url("../images/bg.png");
 		background-position: top left,							top left;
-		background-repeat: repeat,								repeat-y;
-		background-size: auto,								auto 100%;
-		color: rgba(255, 255, 255, 0.5);
+		background-repeat: repeat,								repeat;
+		background-size: auto,								auto 110%;
+		
 		height: 100%;
 		left: 0;
 		padding: 8em 4em 0 0;
