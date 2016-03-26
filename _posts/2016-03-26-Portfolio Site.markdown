@@ -18,10 +18,12 @@ title: Portfolio Site
 </table>
 
 <h1>Project description</h1>
-This is the site that you're looking at right now. I was encouraged by a friend to create a static portfolio site using Jekyll. In the future, I may also extend this site to include a blog. As a base, this site uses the Strata Jekyll theme with a few tweaks in layout and styling.
+As a base, this site uses the Strata Jekyll theme with a few tweaks in layout and styling.
+The goal of this project was to create a fast, static website to showcase my work in a way that is easy to update. I may also use this site as a blogging platform in the future.
 
 <h1>Responsibilities</h1>
 <ul>
-<li>Designed web layout and content</li>
+<li>Modified styling and html layout</li>
+<li>Hosted site on GitHub Pages</li>
 </ul>
 

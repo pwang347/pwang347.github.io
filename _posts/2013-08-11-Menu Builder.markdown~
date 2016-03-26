@@ -18,7 +18,7 @@ title: Menu Builder
 </table>
 
 <h1>Project description</h1>
-I completed this project in high school for a friend who owned a lunch-selling service. This was one of my first programming projects. 
+I completed this project in high school on request for a friend who owned a local lunch-selling service. This was one of my first programming projects, and I wanted to learn more about programming by designing a simple app where most of the work could be completed by drag and drop. 
 
 <h1>Responsibilities</h1>
 <ul>

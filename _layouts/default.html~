@@ -21,7 +21,7 @@
 	<body id="top">
 
       <header id="header">
-          <a href="/#about" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
+          <a href="#" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
           <h1><strong>Hi! I'm Paul Wang</strong><br />
           A first year CS student at the <br />
           University of British Columbia</h1>
@@ -32,7 +32,7 @@
 
         <!-- Footer -->
         <footer id="footer">
-	<h1 class="copyright">Connect with me</h1>
+	<h1 class="heading">Connect with me</h1>
             <ul class="icons">
 	 {% if site.resume_name %}
               <li>

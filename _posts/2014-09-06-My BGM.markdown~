@@ -1,7 +1,6 @@
 ---
 layout: post
 title: My BGM
-date: 09-12-2015
 ---
 <img src="/images/fulls/mybgm-cover.jpg" class="fit image">
 
@@ -22,7 +21,7 @@ date: 09-12-2015
 </table>
 
 <h1>Project description</h1>
-My BGM was the first Android App and personal project that I completed in Java. My goal was to familiarize myself with both OOP and also the Android development process. My BGM is a free media player app that allows you to customize your own music playlists for different actions, locations and moods.
+My BGM was the first Android app and personal project that I completed in Java. It is a free media player app that allows you to customize your own music playlists for different actions, locations and moods. The goal was to familiarize myself with both object-oriented programming and also the Android development process, which includes understanding the app lifecycle and managing intents and activities.
 
 <h1>Responsibilities</h1>
 <ul>

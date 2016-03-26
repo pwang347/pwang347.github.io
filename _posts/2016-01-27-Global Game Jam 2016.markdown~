@@ -23,7 +23,7 @@ title: Routine Collection (GGJ 2016)
 </table>
 
 <h1>Project description</h1>
-The theme for this game jam was "Ritual". My team worked on a GearVR game called Routine Collection where the player collects items to progress to the next level (where they must collect the previous items and a new one in the same order) by moving in the direction that they are looking.
+The theme for this game jam was "Ritual". My team worked on a GearVR game called Routine Collection where the player collects items to progress to the next level (where they must collect the previous items and a new one in the same order) by moving in the direction that they are looking. Our design philosophy for the development of this project was to put out a minimum viable product as early as possible before adding on additional features and graphical effects.
 
 <h1>Responsibilities</h1>
 <ul>

@@ -21,13 +21,13 @@ title: Clipboard ++
 </table>
 
 <h1>Project description</h1>
-For this project, my goal was to create a tool that I would be able to use to boost my efficiency. The Java application allows storage and editing of multiple clipboard items.
+For this project, my goal was to create a tool that I would be able to personally use to boost my efficiency. The Java application allows storage and editing of multiple clipboard items. The data flavours that it supports are strings, images, hyperlinks, and filesystem data.
 
 <h1>Responsibilities</h1>
 <ul>
-<li>Designed app for four data flavours (text,image,url,filesystem)</li>
 <li>Designed layouts in Java FX</li>
-<li>Implemented clipboard listener functionality</li>
+<li>Implemented clipboard listener</li>
+<li>Applied concurrency concepts to multithreaded app</li>
 <li>Designed logo in Photoshop</li>
 </ul>
 
