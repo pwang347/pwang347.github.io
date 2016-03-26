@@ -9,11 +9,17 @@ layout: default
             <header id = "about" class="major">
                 <h2><span class="icon fa-user"></span> About Me</h2>
             </header>
+<<<<<<< HEAD
 		<p>Hello, my name is Paul Wang and I'm a software developer based in Vacouver B.C.</p>
-<p>I'm currently a first year undergraduate student majoring in Computer Science at the University of British Columbia. In my spare time, I strive to adopt the latest programming strategies and workflows while designing my own software. Besides software development, my interests also include digital painting, game design and music composition.
+<p>I'm currently a first year undergraduate student majoring in Computer Science at the University of British Columbia. In my spare time, I strive to adopt the latest programming strategies and workflows while designing my own software. Aside from software development though, my interests also include digital painting, game design and music composition.
 		</p>
 <p>
 For an up-to-date resume and to connect with me and my work, be sure to visit the footer icons to the left of the page. Feel free to explore my website and send me an email for any inquiries or if you find a bug on this site!
+=======
+		<p>Hello, my name is Paul Wang. I am a software developer based in Vancouver, B.C. where I am currently completing my first year of a Bachelor's degree in Computer Science at the University of British Columbia.
+		</p>
+		<p> Aside from software development, my interests also include digital painting, game design and music composition. Feel free to check out my website and send me an email for any questions or if you find a bug on this site!
+>>>>>>> 051de1d6249a96726c734cb95288092d770c0758
 		</p>
     </section>
 
