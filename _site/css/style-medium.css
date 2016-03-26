@@ -43,7 +43,7 @@
 	#footer {
 		background-attachment: scroll;
 		background-color: #1f1815;
-		background-image: url("images/overlay.png"), url("../images/bg.jpg");
+		background-image: url("images/overlay50.png"), url("../images/bg.png");
 		background-position: top left,						bottom center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -54,7 +54,9 @@
 		text-align: center;
 		width: 100%;
 	}
-
+		#footer .heading {
+		  margin: 0 0 1em 0;
+		}
 		#footer .icons {
 			margin: 0 0 1em 0;
 		}

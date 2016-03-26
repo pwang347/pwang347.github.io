@@ -935,7 +935,7 @@
 	#header {
 		background-color: #1f1815;
 		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay50.png"), url("../images/bg.png");
+		background-image: url("images/overlay20.png"), url("../images/bg.png");
 		background-position: top left,							top left;
 		background-repeat: repeat,								repeat;
 		background-size: auto,								auto 110%;
@@ -994,6 +994,11 @@
 			list-style: none;
 			margin: 1em 0 0 0;
 			padding: 0;
+		}
+		#footer .heading {
+			color: rgba(255, 255, 255, 0.6);
+			font-size: 1em;
+			margin: 1em 0 0 2em;
 		}
 
 			#footer .copyright li {

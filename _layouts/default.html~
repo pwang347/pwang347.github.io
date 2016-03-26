@@ -32,20 +32,19 @@
 
         <!-- Footer -->
         <footer id="footer">
+	<h1 class="copyright">Connect with me</h1>
             <ul class="icons">
-
+	 {% if site.resume_name %}
+              <li>
+                <a href="/files/{{ site.resume_name }}" class="icon fa-file">
+                  <span class="label">Resume</span>
+                </a>
+              </li>
+              {% endif %}
               {% if site.github_username %}
               <li>
                 <a href="https://github.com/{{ site.github_username }}" class="icon fa-github">
                   <span class="label">GitHub</span>
-                </a>
-              </li>
-              {% endif %}
-
-              {% if site.resume_name %}
-              <li>
-                <a href="/files/{{ site.resume_name }}" class="icon fa-file">
-                  <span class="label">Resume</span>
                 </a>
               </li>
               {% endif %}

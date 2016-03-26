@@ -11,7 +11,7 @@ layout: default
         <section>
             {{ content }}
         </section>
-        <br><br>
+        <br>
         <footer>
             <a href="/#portfolio" class="button">Back to Portfolio</a>
         </footer>
