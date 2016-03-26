@@ -1,5 +1,0 @@
----
-layout: post
-title: Global Game Jam 2016
----
-<img src="/images/fulls/gamejam-cover.jpg" class="fit image"> Any future versions of the code used to make this game will be available at https://github.com/Five-And-A-Half-Asians/ggj16. To install the game on your Gear VR, generate an Oculus signature file for the project following the instructions at https://developer.oculus.com/osig/ , place it in the /Assets/Plugins/Android/assets/ folder as instructed, and build the game with Unity Free 5.3.2, a modern Android SDK, and a modern Java JDK..
