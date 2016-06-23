@@ -54,7 +54,9 @@
 		text-align: center;
 		width: 100%;
 	}
-
+		#footer .heading {
+		  margin: 0 0 1em 0;
+		}
 		#footer .icons {
 			margin: 0 0 1em 0;
 		}
