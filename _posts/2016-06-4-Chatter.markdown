@@ -1,0 +1,29 @@
+---
+layout: post
+title: Chatter
+---
+<img src="/images/fulls/chatter-cover.jpg" class="fit image">
+
+<h1>Overview</h1>
+<table>
+<tr>
+<td><span class="icon fa-cog"></span>  Development</td>
+<td>Node JS, Socket.IO, Say.js, MongoDB, HTML5, CSS3</td></tr>
+<tr>
+<td><span class="icon fa-users"></span>  Team size</td>
+<td>Solo</td></tr>
+<tr>
+<td><span class="icon fa-tags"></span>  Category</td>
+<td>Personal Project</td></tr>
+</table>
+
+<h1>Project description</h1>
+Inspired by Discord, I created a chatroom service that implements text-to-speech (TTS) functionality. My main goal for this project was to familiarize myself with the Node JS framework, but I might return to add more features in the future.
+
+<h1>Responsibilities</h1>
+<ul>
+<li>Designed CSS styling and html layout</li>
+<li>Implemented chat and storage functionality</li>
+<li>Forked Say.js repository, added bugfix for stopping TTS on Windows</li>
+</ul>
+
