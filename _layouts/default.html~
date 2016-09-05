@@ -19,7 +19,8 @@
   <script src="/js/init.js"></script>
 <script>
 function loadURL(url, offsetId = 'main') {
- 	   $('#main').load(url, function(){
+alert(url+'?'+new Date().getTime());
+ 	   $('#main').load(url+'?'+new Date().getTime(), function(){
 		window.scrollTo(0, $('#'+offsetId).position().top);		
 });
 }
