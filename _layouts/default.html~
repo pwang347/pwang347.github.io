@@ -19,8 +19,9 @@
   <script src="/js/init.js"></script>
 <script>
 function loadURL(url, offsetId = 'main') {
- 	   $('#main').load(url);
-	window.location.href = '#'+offsetId;
+ 	   $('#main').load(url, function(){
+		window.scrollTo(0, $('#'+offsetId).position().top);		
+});
 }
 </script>
 </head>

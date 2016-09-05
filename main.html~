@@ -1,6 +1,6 @@
 ---
 ---
- <section>
+ <section id="home">
         <header id = "about" class="major">
             <h2><span class="icon fa-user"></span> About Me</h2>
         </header>
@@ -43,7 +43,7 @@
 
  <section>
         <header id = "writings" class="major">
-            <h2><span class="icon fa-book"></span>Writings</h2>
+            <h2><span class="icon fa-book"></span> Writings</h2>
         </header>
 	<ul>
 	<li><p><a href="/files/engl112-research-essay.pdf" class="icon fa-file">
