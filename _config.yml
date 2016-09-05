@@ -1,7 +1,7 @@
 # Site settings
 
-title: Paul Wang # Title of your site
-email: paul_wang347@hotmail.com # Your contant email
+title: Paul Wang
+email: paul_wang347@hotmail.com
 
 description: > # this means to ignore newlines until "baseurl:"
   Portfolio site for Paul Wang
@@ -14,7 +14,7 @@ url: "http://pwang347.github.io/" # the base hostname & protocol for your site
 
 resume_name: resume-for-coop.pdf  
 github_username:      pwang347
-linkedin_username:    
+linkedin_username:    paul-wang-189567ab
 google_plus_username: 
 facebook_username:    
 dribbble_username:    

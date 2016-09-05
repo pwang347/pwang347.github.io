@@ -1,7 +1,3 @@
----
-layout: default
----
-<div id="main">
     <article>
         <header class="major">
             <h2 class="post-title">{{ page.title }}</h2>
@@ -13,9 +9,8 @@ layout: default
         </section>
         <br>
         <footer>
-            <a href="/#portfolio" class="button">Back to Portfolio</a>
+            <div onclick="loadURL('main.html', 'main')" class="button">Back to Portfolio</div>
+	<br>
         </footer>
 
     </article>
-
-</div>

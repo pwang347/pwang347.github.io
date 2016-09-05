@@ -1,0 +1,59 @@
+---
+---
+ <section>
+        <header id = "about" class="major">
+            <h2><span class="icon fa-user"></span> About Me</h2>
+        </header>
+
+        <p>I am a software developer based in Vancouver B.C., where I am currently in my second year of study towards a Bachelor of Science Computer Science major degree at the University of British Columbia.</p>
+        <p>In my spare time, I design software for fun while also learning and adopting the latest industry strategies and workflows. Aside from software development though, my interests also include digital painting, game design and music composition.
+        </p>
+        <p>
+            Please feel free to explore my website and send me an email for any inquiries or if you found a bug!
+        </p>
+    </section>
+
+    <section>
+       <div>
+           <header id="portfolio" class="major">
+            <h2><span class="icon fa-folder-open-o"></span> Portfolio</h2>
+        </header>
+    </div>
+    <div class="row">
+        {% for post in site.posts %}
+
+        <article class="{% cycle '6u', '6u$' %} 12u(small)">
+          <center>{{ post.title }}</center>    
+          {% assign images = post.content | split:"<img " %}
+          {% for image in images %}
+          {% if image contains 'src=' %}
+          {% assign imageMarkup = image | split:"class" | first %}
+ 	<!--
+          <a href={{post.url}} class="image fit thumb"><img {{ imageMarkup }}></a>-->
+	<div onclick="loadURL('{{post.url}}')" class = "image fit thumb mouse-hover"> <img {{ imageMarkup }}></div>
+          {% break %}
+          {% endif %}
+          {% endfor %}
+
+      </article>
+
+      {% endfor %}
+  </div>
+</section>
+
+ <section>
+        <header id = "writings" class="major">
+            <h2><span class="icon fa-book"></span>Writings</h2>
+        </header>
+	<ul>
+	<li><p><a href="/files/engl112-research-essay.pdf" class="icon fa-file">
+          [ENGL 112] Artificial Intelligence and Society
+        </a></p></li>
+       <li><p><a href="/files/engl110-research-essay.pdf" class="icon fa-file">
+          [ENGL 110] Truth and Fiction as Developmental Catalysts
+        </a></p></li>
+	<li><p><a href="/files/ib-memoire.pdf" class="icon fa-file">
+          [IB Extended Essay] L'Anglicisme de la langue française au Québec
+        </a></p></li>
+	</ul>
+    </section>

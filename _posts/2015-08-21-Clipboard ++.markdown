@@ -21,7 +21,7 @@ title: Clipboard ++
 </table>
 
 <h1>Project description</h1>
-For this project, my goal was to create a tool that I would be able to personally use to boost my efficiency. The Java application allows storage and editing of multiple clipboard items. The data flavours that it supports are strings, images, hyperlinks, and filesystem data.
+When designing Clipboard ++, my goal was to create a tool that I would be able to use to boost my efficiency. The application allows storage and editing of multiple clipboard items. The data flavours that it supports are strings, images, hyperlinks, and filelist items.
 
 <h1>Responsibilities</h1>
 <ul>

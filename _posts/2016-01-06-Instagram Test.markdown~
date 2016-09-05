@@ -9,7 +9,7 @@ categories: update
 <table>
 <tr>
 <td><span class="icon fa-cog"></span>  Development</td>
-<td>Ruby, Rails, RubyMine, Bootstrap, Heroku, DropBox API</td></tr>
+<td>Ruby on Rails, RubyMine, Bootstrap, Heroku, DropBox API</td></tr>
 <tr>
 <td><span class="icon fa-users"></span>  Team size</td>
 <td>Solo</td></tr>
@@ -22,9 +22,7 @@ categories: update
 </table>
 
 <h1>Project description</h1>
-This was my first attempt at Ruby on Rails, and it allowed me to become more familiar with configuration via the commandline. For this project, I followed various tutorials and used gems such as Devise and Paperclip to achieve functionalities similar to Instagram. The uploaded images are stored to my DropBox account via the developer API.   
-
-(<i>Fun fact</i>: The sheer amount of Windows-only issues that I ran into during this project was enough to convince me to set up a virtual programming environment running on Ubuntu, which I am currently using to develop this Jekyll site.)
+This was my first attempt at Ruby on Rails and more generally, using an MVC framework for the web. Through this project, I became more familiar and comfortable with performing various operations via the commandline. To learn the basics of Ruby on Rails, I followed various tutorials and used gems such as Devise and Paperclip to achieve functionalities similar to Instagram. The uploaded images are stored to my DropBox account via the developer API.
 
 <h1>Responsibilities</h1>
 <ul>

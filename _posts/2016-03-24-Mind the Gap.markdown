@@ -8,17 +8,17 @@ title: Mind the Gap (CPSC 210)
 <table>
 <tr>
 <td><span class="icon fa-cog"></span>  Development</td>
-<td>Java, Android ADT, JSON, IntelliJ IDEA, SVN</td></tr>
+<td>Java, Android ADT, JSON, IntelliJ IDEA, SVN, GenyMotion</td></tr>
 <tr>
 <td><span class="icon fa-users"></span>  Team size</td>
 <td>Solo</td></tr>
 <tr>
 <td><span class="icon fa-tags"></span>  Category</td>
-<td>Course Project</td></tr>
+<td>Academic Project</td></tr>
 </table>
 
 <h1>Project description</h1>
-Mind the Gap was the term project for CPSC 210. The app uses Transport for London (TfL) Open Data to obtain real-time information about arrivals in London's underground transit sytem and to plot tube stations and lines. The purpose of the project was to practice jUnit testing, the use of open APIs, JSON parsing and also becoming familiar with running device emulators. 
+Mind the Gap was the term project for UBC's CPSC 210. The app uses the Transport for London (TfL) Open Data API to obtain real-time information about arrivals in London's underground transit sytem and to plot tube stations and lines. The purpose of the academic project was to practice jUnit testing, API calls, JSON parsing and becoming familiar with debugging.
 
 <h1>Responsibilities</h1>
 <ul>
