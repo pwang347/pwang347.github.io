@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="description" content="" />
   <meta name="keywords" content="" />
-<!-- added this part to avoid slow css load time running skel js on chrome browser -->
+<!-- pre-load the css files to hide load time running skel js on chrome browser -->
   <link rel="stylesheet" href="/css/skel.css" />
   <link rel="stylesheet" href="/css/style.css" />
   <link rel="stylesheet" href="/css/style-xlarge.css" media="(max-width: 1800px)" />
@@ -18,42 +18,38 @@
   <script src="/js/skel.min.js"></script>
   <script src="/js/init.js"></script>
 <script>
+// loads a page with ajax
 function loadURL(url, offsetId) {
-	// default parameters don't seem to work in ie or edge yet
-	if(offsetId === undefined){
-		offsetId = 'main'
-	} 
- 	   $('#main').load(url+'?'+new Date().getTime(), function(){
-		window.scrollTo(0, $('#'+offsetId).position().top);		
-});
+ 	$('#main').load(url+'?'+new Date().getTime(), function(){
+	  window.scrollTo(0, (offsetId === undefined) ? 0 : $('#'+offsetId).position().top);		
+  });
 }
 </script>
 </head>
-
 <body id="top">
-
   <header id="header">
-    <div onclick="loadURL('main.html')" class="image avatar mouse-hover"><img src="/images/avatar.jpg" alt="" /></div>
-    <h1><strong>Hi! I'm Paul Wang</strong><br />
-      A second year CS Student<br />
-	and Teaching Assistant at<br />
-	the University of British Columbia</h1>
-    </header>
-
-
-    <!-- Main -->
+    <div id="portrait" onclick="loadURL('main.html')" class="image avatar mouse-hover">
+      <img src="/images/avatar.jpg" alt="" />
+    </div>
+    <h1><strong>Hello! I'm Paul Wang</strong><br/>
+      A third year CS Student<br/>
+	    and Teaching Assistant at the<br/>
+	    University of British Columbia
+    </h1>
+  </header>
+  <div>
+  <!-- Main -->
 <div id="main">
-<script>
-loadURL('main.html');
-</script>
-<noscript>Your browser does not support JavaScript!</noscript>
+  <script>
+    loadURL('main.html');
+  </script>
+  <noscript>Your browser does not support JavaScript!</noscript>
 </div>
 
-
-    <!-- Footer -->
-    <footer id="footer">
-     <h1 class="heading">Connect with me</h1>
-     <ul class="icons">
+  </div>
+  <footer id="footer">
+    <h1 class="heading">Connect with me</h1>
+    <ul class="icons">
       
       <li>
         <a href="/files/resume-for-coop.pdf" class="icon fa-file">
@@ -68,7 +64,6 @@ loadURL('main.html');
         </a>
       </li>
       
-
       
       <li>
         <a href="https://linkedin.com/in/paul-wang-189567ab" class="icon fa-linkedin">
@@ -76,12 +71,6 @@ loadURL('main.html');
         </a>
       </li>
       
-
-      
-
-      
-
-
       
       <li>
         <a href="mailto:paul_wang347@hotmail.com" class="icon fa-envelope-o">
@@ -92,9 +81,8 @@ loadURL('main.html');
     </ul>
     <ul class="copyright">
       <li>&copy; Paul Wang 2016</li>
-      <li>Strata theme: html5up.net</li>
+      <li>Strata theme : html5up.net</li>
     </ul>
   </footer>
-
 </body>
 </html>

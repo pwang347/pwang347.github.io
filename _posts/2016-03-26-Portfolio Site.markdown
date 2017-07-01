@@ -6,14 +6,11 @@ title: Portfolio Site
 
 <h1>Overview</h1>
 <table>
-<tr>
-<td><span class="icon fa-cog"></span>  Development</td>
+<tr><td><span class="icon fa-cog"></span>  Development</td>
 <td>Jekyll, Liquid, HTML5, CSS3, Javascript, JQuery, AJAX, Github Pages</td></tr>
-<tr>
-<td><span class="icon fa-users"></span>  Team size</td>
+<tr><td><span class="icon fa-users"></span>  Team size</td>
 <td>Solo</td></tr>
-<tr>
-<td><span class="icon fa-tags"></span>  Category</td>
+<tr><td><span class="icon fa-tags"></span>  Category</td>
 <td>Personal Project</td></tr>
 </table>
 

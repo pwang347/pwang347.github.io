@@ -6,19 +6,16 @@ title: Menu Builder
 
 <h1>Overview</h1>
 <table>
-<tr>
-<td><span class="icon fa-cog"></span>  Development</td>
-<td>Basic, MySQL, Visual Basic</td></tr>
-<tr>
-<td><span class="icon fa-users"></span>  Team size</td>
+<tr><td><span class="icon fa-cog"></span> Technology Stack</td>
+<td>MySQL, Visual Basic</td></tr>
+<tr><td><span class="icon fa-users"></span> Team Size</td>
 <td>Solo</td></tr>
-<tr>
-<td><span class="icon fa-tags"></span>  Category</td>
-<td>Personal Project (by request)</td></tr>
+<tr><td><span class="icon fa-tags"></span> Project Category</td>
+<td>Personal (requested)</td></tr>
 </table>
 
 <h1>Project description</h1>
-This project was completed in my early years of high school on behalf of a friend's mom who owned a local lunch-selling service. As one of my first programming projects, I wanted to learn more about programming by designing a simple GUI app where I could simply work on the visuals using drag and drop (ie. to spend more time for developing functionality). 
+This project was completed on behalf of a friend's mom to maintain a local lunch-selling service. As one of my first programming projects, I wanted to learn more about developing GUI applications with persistent data using a database - in this case, MySQL. 
 
 <h1>Responsibilities</h1>
 <ul>

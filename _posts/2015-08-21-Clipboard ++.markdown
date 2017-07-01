@@ -6,17 +6,13 @@ title: Clipboard ++
 
 <h1>Overview</h1>
 <table>
-<tr>
-<td><span class="icon fa-cog"></span>  Development</td>
+<tr><td><span class="icon fa-cog"></span>  Development</td>
 <td>Java, JavaFX</td></tr>
-<tr>
-<td><span class="icon fa-users"></span>  Team size</td>
+<tr><td><span class="icon fa-users"></span>  Team size</td>
 <td>Solo</td></tr>
-<tr>
-<td><span class="icon fa-tags"></span>  Category</td>
+<tr><td><span class="icon fa-tags"></span>  Category</td>
 <td>Personal Project</td></tr>
-<tr>
-<td><span class="icon fa-share-alt"></span>  Available links</td>
+<tr><td><span class="icon fa-share-alt"></span>  Available links</td>
 <td><a href = "https://github.com/pwang347/ClipboardPP">GitHub Repository</a></td></tr>
 </table>
 

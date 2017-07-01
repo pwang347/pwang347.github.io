@@ -6,14 +6,11 @@ title: Mind the Gap (CPSC 210)
 
 <h1>Overview</h1>
 <table>
-<tr>
-<td><span class="icon fa-cog"></span>  Development</td>
+<tr><td><span class="icon fa-cog"></span>  Development</td>
 <td>Java, Android ADT, JSON, IntelliJ IDEA, SVN, GenyMotion</td></tr>
-<tr>
-<td><span class="icon fa-users"></span>  Team size</td>
+<tr><td><span class="icon fa-users"></span>  Team size</td>
 <td>Solo</td></tr>
-<tr>
-<td><span class="icon fa-tags"></span>  Category</td>
+<tr><td><span class="icon fa-tags"></span>  Category</td>
 <td>Academic Project</td></tr>
 </table>
 

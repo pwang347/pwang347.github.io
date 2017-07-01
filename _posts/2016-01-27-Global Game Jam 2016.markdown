@@ -6,17 +6,13 @@ title: Routine Collection (GGJ 2016)
 
 <h1>Overview</h1>
 <table>
-<tr>
-<td><span class="icon fa-cog"></span>  Development</td>
+<tr><td><span class="icon fa-cog"></span>  Development</td>
 <td>C#, Unity, GearVR, Git</td></tr>
-<tr>
-<td><span class="icon fa-users"></span>  Team size</td>
+<tr><td><span class="icon fa-users"></span>  Team size</td>
 <td>6</td></tr>
-<tr>
-<td><span class="icon fa-tags"></span>  Category</td>
+<tr><td><span class="icon fa-tags"></span>  Category</td>
 <td>Hackathon</td></tr>
-<tr>
-<td><span class="icon fa-share-alt"></span>  Available links</td>
+<tr><td><span class="icon fa-share-alt"></span>  Available links</td>
 <td><a href = "http://routinecollection.github.io/">Unity Web GL Build</a>, 
 <a href = "https://github.com/Five-And-A-Half-Asians/ggj16">GitHub Repository</a>, 
 <a href = "http://globalgamejam.org/2016/games/routine-collection">Game Jam Entry</a></td></tr>

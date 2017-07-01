@@ -5,7 +5,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="description" content="" />
   <meta name="keywords" content="" />
-<!-- added this part to avoid slow css load time running skel js on chrome browser -->
+<!-- pre-load the css files to hide load time running skel js on chrome browser -->
   <link rel="stylesheet" href="/css/skel.css" />
   <link rel="stylesheet" href="/css/style.css" />
   <link rel="stylesheet" href="/css/style-xlarge.css" media="(max-width: 1800px)" />
@@ -18,35 +18,31 @@
   <script src="/js/skel.min.js"></script>
   <script src="/js/init.js"></script>
 <script>
+// loads a page with ajax
 function loadURL(url, offsetId) {
-	// default parameters don't seem to work in ie or edge yet
-	if(offsetId === undefined){
-		offsetId = 'main'
-	} 
- 	   $('#main').load(url+'?'+new Date().getTime(), function(){
-		window.scrollTo(0, $('#'+offsetId).position().top);		
-});
+ 	$('#main').load(url+'?'+new Date().getTime(), function(){
+	  window.scrollTo(0, (offsetId === undefined) ? 0 : $('#'+offsetId).position().top);		
+  });
 }
 </script>
 </head>
-
 <body id="top">
-
   <header id="header">
-    <div onclick="loadURL('main.html')" class="image avatar mouse-hover"><img src="/images/avatar.jpg" alt="" /></div>
-    <h1><strong>Hi! I'm Paul Wang</strong><br />
-      A second year CS Student<br />
-	and Teaching Assistant at<br />
-	the University of British Columbia</h1>
-    </header>
-
-
-    {{ content }}
-
-    <!-- Footer -->
-    <footer id="footer">
-     <h1 class="heading">Connect with me</h1>
-     <ul class="icons">
+    <div id="portrait" onclick="loadURL('main.html')" class="image avatar mouse-hover">
+      <img src="/images/avatar.jpg" alt="" />
+    </div>
+    <h1><strong>Hello! I'm Paul Wang</strong><br/>
+      A third year CS Student<br/>
+	    and Teaching Assistant at the<br/>
+	    University of British Columbia
+    </h1>
+  </header>
+  <div>
+  {{ content }}
+  </div>
+  <footer id="footer">
+    <h1 class="heading">Connect with me</h1>
+    <ul class="icons">
       {% if site.resume_name %}
       <li>
         <a href="/files/{{ site.resume_name }}" class="icon fa-file">
@@ -61,7 +57,6 @@ function loadURL(url, offsetId) {
         </a>
       </li>
       {% endif %}
-
       {% if site.linkedin_username %}
       <li>
         <a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="icon fa-linkedin">
@@ -69,24 +64,6 @@ function loadURL(url, offsetId) {
         </a>
       </li>
       {% endif %}
-
-      {% if site.google_plus_username %}
-      <li>
-        <a href="https://plus.google.com/{{ site.google_plus_username }}" class="icon fa-google-plus">
-          <span class="label">Google+</span>
-        </a>
-      </li>
-      {% endif %}
-
-      {% if site.facebook_username %}
-      <li>
-        <a href="https://www.facebook.com/{{ site.facebook_username }}" class="icon fa-facebook">
-          <span class="label">Facebook</span>
-        </a>
-      </li>
-      {% endif %}
-
-
       {% if site.email %}
       <li>
         <a href="mailto:{{ site.email }}" class="icon fa-envelope-o">
@@ -97,9 +74,8 @@ function loadURL(url, offsetId) {
     </ul>
     <ul class="copyright">
       <li>&copy; Paul Wang 2016</li>
-      <li>Strata theme: html5up.net</li>
+      <li>Strata theme : html5up.net</li>
     </ul>
   </footer>
-
 </body>
 </html>

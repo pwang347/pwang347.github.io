@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My BGM
+title: Course Ranker
 ---
 <img src="/images/fulls/mybgm-cover.jpg" class="fit image">
 
