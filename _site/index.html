@@ -24,6 +24,10 @@ function loadURL(url, offsetId) {
 	  window.scrollTo(0, (offsetId === undefined) ? 0 : $('#'+offsetId).position().top);		
   });
 }
+$(window).scroll(function(){
+  var delta = $(window).scrollTop() - $('#home').position().top
+  $('.fade').css("opacity", 1 - delta/($('#portfolio').position().top));
+});
 </script>
 </head>
 <body id="top">
@@ -32,8 +36,8 @@ function loadURL(url, offsetId) {
       <img src="/images/avatar.jpg" alt="" />
     </div>
     <h1><strong>Hello! I'm Paul Wang</strong><br/>
-      A third year CS Student<br/>
-	    and Teaching Assistant at the<br/>
+      A third year CS Student and<br/>
+	    Teaching Assistant at the<br/>
 	    University of British Columbia
     </h1>
   </header>
