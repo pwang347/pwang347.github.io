@@ -1,0 +1,30 @@
+---
+layout: post
+title: UBC Requirement Tree
+---
+<img src="/images/fulls/mybgm-cover.jpg" class="fit image">
+
+<h1>Overview</h1>
+<table>
+<tr><td><span class="icon fa-cog"></span> Technology Stack</td>
+<td>Java, XML, Android Studio</td></tr>
+<tr><td><span class="icon fa-users"></span> Team Size</td>
+<td>Solo</td></tr>
+<tr><td><span class="icon fa-tags"></span> Project Category</td>
+<td>Personal</td></tr>
+<tr><td><span class="icon fa-share-alt"></span>  Links</td>
+<td><a href = "http://bit.do/mybgm">Google Play</a>, <a href = "https://github.com/pwang347/my-bgm">GitHub Repository</a></td></tr>
+</table>
+
+<h1>Project description</h1>
+My BGM was the first Android app and personal project that I completed using Java. The goal of the project was to familiarize myself with both object-oriented programming and also the Android development process, which includes understanding the Android app lifecycle and managing intents, activities and services.
+
+<h1>Responsibilities</h1>
+<ul>
+<li>Modeled core classes used in the app (eg. Song, Playlist, etc)</li>
+<li>Designed app layout in Android Studio/XML</li>
+<li>Implemented image caching, filetype filtering, custom dialogs</li>
+<li>Created art assets in Photoshop</li>
+<li>Published to Google Play Store</li>
+</ul>
+

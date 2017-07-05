@@ -1,6 +1,7 @@
 ---
+paginate: true
 ---
-<section id="home" class="fade">
+<section id="home">
   <header id = "about" class="major">
     <h2><span class="icon fa-user"></span> About Me</h2>
   </header>
@@ -13,7 +14,7 @@
     <header id="portfolio" class="major">
       <h2><span class="icon fa-folder-open-o"></span> Portfolio</h2>
     </header>
-    </div>
+  </div>
   <div class="row">
     {% for post in site.posts %}
     <article class="{% cycle '6u', '6u$' %} 12u(small)">
