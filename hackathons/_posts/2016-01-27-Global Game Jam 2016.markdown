@@ -1,5 +1,5 @@
 ---
-layout: post_portfolio
+layout: post_hackathon
 title: Global Game Jam 2016
 ---
 <img src="/images/fulls/gamejam-cover.jpg" class="fit image shadow">
