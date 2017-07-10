@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_portfolio
 title: Zen Bot
 ---
 <img src="/images/fulls/tmp-cover.png" class="fit image shadow">

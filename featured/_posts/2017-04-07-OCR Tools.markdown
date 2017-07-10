@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_portfolio
 title: OCR Tools
 ---
 <img src="/images/fulls/tmp-cover.png" class="fit image shadow">
