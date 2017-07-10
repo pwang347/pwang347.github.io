@@ -1,8 +1,8 @@
 ---
-layout: post
-title: Routine Collection (GGJ 2016)
+layout: post_portfolio
+title: Global Game Jam 2016
 ---
-<img src="/images/fulls/gamejam-cover.jpg" class="fit image">
+<img src="/images/fulls/gamejam-cover.jpg" class="fit image shadow">
 
 <h1>Overview</h1>
 <table>
@@ -10,8 +10,6 @@ title: Routine Collection (GGJ 2016)
 <td>C#, Unity, GearVR, Git</td></tr>
 <tr><td><span class="icon fa-users"></span>  Team size</td>
 <td>6</td></tr>
-<tr><td><span class="icon fa-tags"></span>  Category</td>
-<td>Hackathon</td></tr>
 <tr><td><span class="icon fa-share-alt"></span>  Available links</td>
 <td><a href = "http://routinecollection.github.io/">Unity Web GL Build</a>, 
 <a href = "https://github.com/Five-And-A-Half-Asians/ggj16">GitHub Repository</a>, 

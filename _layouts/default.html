@@ -21,7 +21,7 @@
 // loads a page with ajax
 function loadURL(url, offsetId) {
  	$('#main').load(url+'?'+new Date().getTime(), function(){
-	  window.scrollTo(0, (offsetId === undefined) ? 0 : $('#'+offsetId).position().top);		
+	  window.scrollTo(0, (offsetId === undefined) ? 0 : $('#'+offsetId).position().top);
   });
 }
 </script>
@@ -37,7 +37,7 @@ function loadURL(url, offsetId) {
 	    University of British Columbia
     </h1>
   </header>
-  <div>
+  </div>
   {{ content }}
   </div>
   <footer id="footer">

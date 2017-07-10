@@ -1,15 +1,13 @@
 ---
-layout: post
-title: OCR Tools
+layout: post_portfolio
+title: My BGM
 ---
-<img src="/images/fulls/mybgm-cover.jpg" class="fit image">
+<img src="/images/fulls/mybgm-cover.jpg" class="fit image shadow">
 
 <h1>Overview</h1>
 <table>
 <tr><td><span class="icon fa-cog"></span> Technology Stack</td>
 <td>Java, XML, Android Studio</td></tr>
-<tr><td><span class="icon fa-users"></span> Team Size</td>
-<td>Solo</td></tr>
 <tr><td><span class="icon fa-tags"></span> Project Category</td>
 <td>Personal</td></tr>
 <tr><td><span class="icon fa-share-alt"></span>  Links</td>

@@ -1,15 +1,13 @@
 ---
-layout: post
+layout: post_portfolio
 title: Portfolio Site
 ---
-<img src="/images/fulls/portfolio-cover2.png" class="fit image">
+<img src="/images/fulls/portfolio-cover2.png" class="fit image shadow">
 
 <h1>Overview</h1>
 <table>
 <tr><td><span class="icon fa-cog"></span>  Development</td>
 <td>Jekyll, Liquid, HTML5, CSS3, Javascript, JQuery, AJAX, Github Pages</td></tr>
-<tr><td><span class="icon fa-users"></span>  Team size</td>
-<td>Solo</td></tr>
 <tr><td><span class="icon fa-tags"></span>  Category</td>
 <td>Personal Project</td></tr>
 </table>

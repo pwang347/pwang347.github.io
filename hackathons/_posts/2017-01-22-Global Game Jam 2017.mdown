@@ -1,0 +1,23 @@
+---
+layout: post_hackathon
+title: Global Game Jam 2017
+---
+<img src="/images/fulls/tmp-cover.png" class="fit image shadow">
+
+<h1>Overview</h1>
+<table>
+<tr><td><span class="icon fa-cog"></span> Technology Stack</td>
+<td>Unity/C#</td></tr>
+<tr><td><span class="icon fa-users"></span> Team Size</td>
+<td>1</td></tr>
+<tr><td><span class="icon fa-share-alt"></span>  Links</td>
+<td><a href = "https://github.com/UBC-GGJ2017/UBC-GGJ2017.github.io">GitHub Repository</a></td></tr>
+</table>
+
+<h1>Project description</h1>
+TODO
+
+<h1>Responsibilities</h1>
+<ul>
+<li>TODO</li>
+</ul>

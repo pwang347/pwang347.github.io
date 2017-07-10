@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: post_portfolio
 title: Mind the Gap (CPSC 210)
 ---
-<img src="/images/fulls/mindthegap-cover.png" class="fit image">
+<img src="/images/fulls/mindthegap-cover.png" class="fit image shadow">
 
 <h1>Overview</h1>
 <table>

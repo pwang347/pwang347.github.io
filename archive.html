@@ -1,0 +1,24 @@
+---
+---
+<section class="portfolio-section">
+  <div>
+    <header id="portfolio" class="major">
+      <h2 class="h"><span class="icon fa-folder-open"></span> Archived</h2>
+    </header>
+  </div>
+  <div class="row">
+    {% for post in site.categories.archived %}
+    <article class="{% cycle '6u', '6u$' %} 12u(small)">
+    <center>{{ post.title }}</center>    
+    {% assign images = post.content | split:"<img " %}
+    {% for image in images %}
+    {% if image contains 'src=' %}
+    {% assign imageMarkup = image | split:"class" | first %}
+  <div onclick="loadURL('{{post.url}}')" class = "image fit thumb mouse-hover shadow"><img {{ imageMarkup }}></div>
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </article>
+  {% endfor %}
+  </div>
+</section>

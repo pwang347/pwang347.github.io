@@ -1,18 +1,16 @@
 ---
-layout: post
+layout: post_portfolio
 title: Clipboard ++
 ---
-<img src="/images/fulls/clipboard-cover.png" class="fit image">
+<img src="/images/fulls/clipboard-cover.png" class="fit image shadow">
 
 <h1>Overview</h1>
 <table>
 <tr><td><span class="icon fa-cog"></span>  Development</td>
 <td>Java, JavaFX</td></tr>
-<tr><td><span class="icon fa-users"></span>  Team size</td>
-<td>Solo</td></tr>
 <tr><td><span class="icon fa-tags"></span>  Category</td>
 <td>Personal Project</td></tr>
-<tr><td><span class="icon fa-share-alt"></span>  Available links</td>
+<tr><td><span class="icon fa-share-alt"></span>  Links</td>
 <td><a href = "https://github.com/pwang347/ClipboardPP">GitHub Repository</a></td></tr>
 </table>
 

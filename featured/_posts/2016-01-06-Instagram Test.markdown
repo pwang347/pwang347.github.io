@@ -1,19 +1,16 @@
 ---
-layout: post
-categories: update
+layout: post_portfolio
 ---
 
-<img src="/images/fulls/instagramtest-cover.jpg" class="fit image">
+<img src="/images/fulls/instagramtest-cover.jpg" class="fit image shadow">
 
 <h1>Overview</h1>
 <table>
 <tr><td><span class="icon fa-cog"></span>  Development</td>
 <td>Ruby on Rails, RubyMine, Bootstrap, Heroku, DropBox API</td></tr>
-<tr><td><span class="icon fa-users"></span>  Team size</td>
-<td>Solo</td></tr>
 <tr><td><span class="icon fa-tags"></span>  Category</td>
 <td>Learning Project</td></tr>
-<tr><td><span class="icon fa-share-alt"></span>  Available links</td>
+<tr><td><span class="icon fa-share-alt"></span>  Links</td>
 <td><a href="http://instajams.herokuapp.com">Heroku App</a></td></tr>
 </table>
 

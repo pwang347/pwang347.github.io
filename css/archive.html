@@ -1,0 +1,40 @@
+---
+---
+<section class="portfolio-section">
+  <div>
+    <header id="portfolio" class="major">
+      <h2 class="h"><span class="icon fa-folder-open-o"></span> Portfolio</h2>
+    </header>
+  </div>
+  <div class="row">
+    {% for post in site.drafts %}
+    <article class="{% cycle '6u', '6u$' %} 12u(small)">
+    <center>{{ post.title }}</center>    
+    {% assign images = post.content | split:"<img " %}
+    {% for image in images %}
+    {% if image contains 'src=' %}
+    {% assign imageMarkup = image | split:"class" | first %}
+  <div onclick="loadURL('{{post.url}}')" class = "image fit thumb mouse-hover"> <img {{ imageMarkup }}></div>
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </article>
+  {% endfor %}
+  </div>
+</section>
+<section class="portfolio-section">
+  <header id = "essays" class="major">
+    <h2 class="h"><span class="icon fa-book"></span> Essays</h2>
+  </header>
+  <ul>
+  <li>
+    <a href="/files/engl112-research-essay.pdf" class="icon fa-file">[ENGL 112] Artificial Intelligence and Society</a>
+  </li>
+  <li>
+    <a href="/files/engl110-research-essay.pdf" class="icon fa-file">[ENGL 110] Truth and Fiction as Developmental Catalysts</a>
+  </li>
+  <li>
+    <a href="/files/ib-memoire.pdf" class="icon fa-file">[IB Extended Essay] L'Anglicisme de la langue française au Québec</a>
+  </li>
+  </ul>
+</section>

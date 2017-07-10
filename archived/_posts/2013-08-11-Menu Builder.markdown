@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_portfolio
 title: Menu Builder
 ---
 <img src="/images/fulls/menubuilder-cover.png" class="fit image">

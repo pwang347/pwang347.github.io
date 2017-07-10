@@ -1,0 +1,20 @@
+<article>
+  <header class="major">
+    <h2 class="post-title">
+    {{ page.title }}
+    </h2>
+    <p class="post-meta">
+    {{ page.date | date: "%b %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+    </p>
+  </header>
+  <section>
+  {{ content }}
+  </section>  
+  <br>
+  <footer>
+    <div onclick="loadURL('main.html', 'hackathons')" class="button">
+      Back to Hackathons
+    </div>
+    <br>
+  </footer>
+</article>
