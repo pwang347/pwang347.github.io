@@ -2,7 +2,7 @@
 layout: post_hackathon
 title: Global Game Jam 2017
 ---
-<img src="/images/fulls/tmp-cover.png" class="fit image shadow">
+<img src="/images/fulls/gamejam17-cover.png" class="fit image shadow">
 
 <h1>Overview</h1>
 <table>
