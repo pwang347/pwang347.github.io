@@ -2,7 +2,7 @@
 layout: post_portfolio
 title: OCR Tools
 ---
-<img src="/images/fulls/tmp-cover.png" class="fit image shadow">
+<img src="/images/fulls/ocr-tools-cover.png" class="fit image shadow">
 
 <h1>Overview</h1>
 <table>
