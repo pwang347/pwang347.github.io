@@ -2,7 +2,7 @@
 layout: post_hackathon
 title: UBC Local Hack Day 2016
 ---
-<img src="/images/fulls/tmp-cover.png" class="fit image shadow">
+<img src="/images/fulls/local-hack-cover.png" class="fit image shadow">
 
 <h1>Overview</h1>
 <table>
