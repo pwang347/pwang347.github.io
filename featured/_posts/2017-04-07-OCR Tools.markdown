@@ -10,15 +10,15 @@ title: OCR Tools
 <td>Java, XML, Android Studio, GoogleCodelabs</td></tr>
 <tr><td><span class="icon fa-tags"></span> Project Category</td>
 <td>Tutorial/Personal</td></tr>
-<tr><td><span class="icon fa-share-alt"></span>  Links</td>
-<td><a href = "https://github.com/pwang347/ocr-tools">GitHub Repository</a></td></tr>
 </table>
 
 <h1>Project description</h1>
-TODO
+Walkthrough of Google's code lab tutorial: https://codelabs.developers.google.com/codelabs/mobile-vision-ocr/, and added a few additional features and UX improvements.
 
 <h1>Responsibilities</h1>
 <ul>
-<li>TODO</li>
+<li>Implemented pause mode for camera</li>
+<li>Implemented copy to clipboard, and create text file</li>
+<li>Implemented box selection highlighting</li>
 </ul>
 

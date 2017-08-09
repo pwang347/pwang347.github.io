@@ -2,7 +2,7 @@
 layout: post_portfolio
 title: Zen Bot
 ---
-<img src="/images/fulls/zen-bot-cover.jpg" class="fit image shadow">
+<img src="/images/fulls/zen-bot-cover.png" class="fit image shadow">
 
 <h1>Overview</h1>
 <table>
@@ -15,10 +15,16 @@ title: Zen Bot
 </table>
 
 <h1>Project description</h1>
-TODO
+A Facebook Messenger Hubot personality that performs a variety of different tasks.
+Designed for fun, so it features a few easter eggs such as when computing 2+2 (hopefully you got the reference).
 
 <h1>Responsibilities</h1>
 <ul>
-<li>TODO</li>
+<li>Implemented YouTube video aliasing and embedding by converting a YouTube URL to the actual mp4 URL using HelloACM's API</li>
+<li>Implemented local weather forecasting using Yahoo weather API</li>
+<li>Implemented mathematical expression evaluation using Math.js</li>
+<li>Implemented definitions using Word API</li>
+<li>Implemented a random meme generator using the ImgFlip API</li>
+<li>Hosted app on Heroku, and is publicly viewable at https://www.facebook.com/zen.as.bot/ (requires Admin approval)</li>
 </ul>
 

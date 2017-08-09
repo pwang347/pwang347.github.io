@@ -2,7 +2,7 @@
 layout: post_portfolio
 title: ProBot AI
 ---
-<img src="/images/fulls/probot-cover.jpg" class="fit image shadow">
+<img src="/images/fulls/probot-cover.png" class="fit image shadow">
 
 <h1>Overview</h1>
 <table>
