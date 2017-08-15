@@ -16,16 +16,14 @@ title: SAP Labs Canada
 
 <h1>Work description</h1>
 <ul>
-<li>Automated single and multinode environment provisioning in Jenkins</li>
-<li>Set up chef linting and validation jobs in Jenkins</li>
-<li>Set up new Jenkins cluster in staging DC to automate deployments to staging environments</li>
-<li>Added deployment commands and diagnostics in Capistrano</li>
-<li>Wrote chef recipes to install new components and manage configurations</li>
-<li>Developed in-house Ruby gem to automate special deployment instructions</li>
-<li>Developed in-house CLI tool to manage releases for deployment using Golang</li>
-<li>Developed in-house Hubot instance to communicate with Github API</li>
-<li>Containerized document-conversion microservice for Docker</li>
-<li>Fixed bugs and added unit tests using Mocha for Rails application</li>
-<li>Wrote updated deployment bash scripts</li>
+<li>Developed new CLI tool for concurrent deployment operations using Golang using Cobra and Viper frameworks—this replaced legacy bash deployment scripts with testable codebase</li>
+<li>Containerized document converter micro-service for Docker; created Jenkins pipeline for image building and architected Capistrano deployment mechanism and internal Syslog logging</li>
+<li>Set up new Jenkins cluster in staging DC, and created web-hook controlled jobs to fully automate staging deployments and packaging GitHub release assets</li>
+<li>Automated provisioning and deployment validation in Jenkins, as well as established pull-request linting and chef-runner job to allow full testing coverage for chef cookbook repository</li>
+<li>Maintained and validated server configurations through Chef recipes and various special deployment instructions; implemented several diagnostics and maintenance tasks in Capistrano</li>
+<li>Reduced complete deployment time from thirty to ten minutes by uploading compiled assets; further reduced subsequent times by implementing logic to skip same revision releases</li>
+<li>Implemented cron-managed chat alerts using GitHub API calls for in-house Hubot instance</li>
+<li>For internal hackathon, created a real-time collaboration canvas with cursor coloured presence indicators for each websocket connection and eraser, colour, opacity, scale tools</li>
+<li>Implemented this view for document viewer and powerpoint viewer for annotations that can be toggled on and off</li>
 </ul>
 

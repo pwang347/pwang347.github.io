@@ -15,9 +15,13 @@ title: Lumohacks 2016
 </table>
 
 <h1>Project description</h1>
-TODO
+LumoHacks is a hackathon targeted towards medical patients. Our group decided to make a one-on-one messaging service that pairs patients with questions based on a set of tags. The goal was to create an app that would encourage knowledge transfer and emotional support between ones who are knowledgeable in certain medical areas but seek counsel in others.
+
+I worked on setting up the socket connections and pair up system, and also core messaging components.
 
 <h1>Responsibilities</h1>
 <ul>
-<li>TODO</li>
+<li>Implemented a simple chat system with persistent, real-time messages using MongoDB and Socket.IO</li>
+<li>Implemented a pair up system that selects based on user tags (tags were semi-functional still)</li>
+<li>Designed app logo and views</li>
 </ul>
