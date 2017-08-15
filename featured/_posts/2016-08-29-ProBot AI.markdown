@@ -20,6 +20,10 @@ ProBot is a Protoss-race AI designed for the real-time strategy game Starcraft: 
 <h1>Responsibilities</h1>
 <ul>
 <li>Implemented minimax with alpha-beta pruning for build order searching</li>
+<li>Assigned score to target units to implement fight or flight decision making</li>
+<li>Used heuristics to determine safest pathing during combat for ranged units to implement hit and run</li>
+<li>Implemented flee mechanics for scouting</li>
+<li>Implemented travel formations to optimize battle</li>
 <li>Implemented tree traversal for a node struct representing tech trees</li>
 <li>Implemented custom debugging methods</li>
 <li>Implemented modular design for extendability, used UMLet for class diagrams</li>

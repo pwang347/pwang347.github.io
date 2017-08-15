@@ -23,7 +23,5 @@ title: SAP Labs Canada
 <li>Maintained and validated server configurations through Chef recipes and various special deployment instructions; implemented several diagnostics and maintenance tasks in Capistrano</li>
 <li>Reduced complete deployment time from thirty to ten minutes by uploading compiled assets; further reduced subsequent times by implementing logic to skip same revision releases</li>
 <li>Implemented cron-managed chat alerts using GitHub API calls for in-house Hubot instance</li>
-<li>For internal hackathon, created a real-time collaboration canvas with cursor coloured presence indicators for each websocket connection and eraser, colour, opacity, scale tools</li>
-<li>Implemented this view for document viewer and powerpoint viewer for annotations that can be toggled on and off</li>
 </ul>
 

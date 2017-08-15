@@ -13,7 +13,8 @@ title: OCR Tools
 </table>
 
 <h1>Project description</h1>
-Walkthrough of Google's code lab tutorial: https://codelabs.developers.google.com/codelabs/mobile-vision-ocr/, and added a few additional features and UX improvements.
+Walkthrough of Google's code lab tutorial: https://codelabs.developers.google.com/codelabs/mobile-vision-ocr/
+Added a few additional features and UX improvements.
 
 <h1>Responsibilities</h1>
 <ul>

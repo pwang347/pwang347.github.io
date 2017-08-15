@@ -1,0 +1,30 @@
+---
+layout: post_hackathon
+title: NwHacks 2017
+---
+<img src="/images/fulls/nwhacks-animated-cover.gif" class="fit image shadow">
+
+<h1>Overview</h1>
+<table>
+<tr><td><span class="icon fa-cog"></span> Technology Stack</td>
+<td>Bash, Node.js, Cockroach DB, Express.js, Casper.js, Docker, Heroku, Angular.js</td></tr>
+<tr><td><span class="icon fa-users"></span> Team Size</td>
+<td>4</td></tr>
+<tr><td><span class="icon fa-share-alt"></span>  Links</td>
+<td><a href = "https://github.com/peterysc/azninvasion">GitHub Repository</a></td></tr>
+</table>
+
+<h1>Project description</h1>
+The hack that we developed for NwHacks 2017 is UBC Course Ranker - a tool that fetches as much data about a course section as possible (eg. professor score, course timing), and then scores them based on user weightings. Unfortunately, we weren't able to break the captcha required for scraping course grade distribution as the image recognition was not very accurate.
+
+However, using the sample data we obtained we were able to generate a list of professors and scrape RateMyProf for their statistics. We were also able to scrape the UBC course page for course times. We then wrote Bash and Java to pipeline the scraped csv data into MySQL queries to populate the Professor and Course Section tables distributed across several Cockroach DB nodes.
+
+The data is then rendered on an Angular frontend, where we used C3Js to render pie charts for the grade distributions.
+
+<h1>Responsibilities</h1>
+<ul>
+<li>Wrote Casper.js web-scraper script for RateMyProf and UBC course website to retrieve professor scores</li>
+<li>Attempted captcha breaking with Tesseract.js</li>
+<li>Automated csv to MySQL database injection using bash and Java scripts</li>
+<li>Wrote queries for backend API endpoints using Express.js</li>
+</ul>

@@ -13,7 +13,9 @@ title: Portfolio Site
 </table>
 
 <h1>Project description</h1>
-This site uses the Strata Jekyll theme with some minor tweaks to the CSS styling and overall layout.
+What you're currently looking at. Heh.
+
+This site uses the Strata Jekyll theme with quite a few tweaks to the CSS styling and overall layout.
 The goal of this project was to create a fast, easily-maintainable website to showcase my work. In the future, I may also use this site as a blogging platform for tutorial related posts.
 
 <h1>Responsibilities</h1>

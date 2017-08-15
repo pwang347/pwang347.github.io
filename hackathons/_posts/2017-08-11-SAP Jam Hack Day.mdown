@@ -1,0 +1,28 @@
+---
+layout: post_hackathon
+title: SAP Jam Hack Day
+---
+<img src="/images/fulls/sap-cover.png" class="fit image shadow">
+
+<h1>Overview</h1>
+<table>
+<tr><td><span class="icon fa-cog"></span>  Development</td>
+<td>Golang, Javascript, HTML5</td></tr>
+<tr><td><span class="icon fa-users"></span>  Team size</td>
+<td>1</td></tr>
+</table>
+
+<h1>Project description</h1>
+SAP Jam is a collaboration platform similar in layout to Facebook and LinkedIn. With recent themes of real-time collaboration, for my hack I decided to implement a whiteboard collaboration tool as a new content item. The graphical components of the canvas were rendered using the HTML5 canvas, and mouse movement vectors were sent through a websocket connection to the backend server (which as a POC, I mocked in Golang). The propagation of websocket messages was done at the ID level, so that all connections subscribed to a given canvas would receive its events.
+
+Following the lead of Google Docs, I also implemented presence--upon connection, a websocket connection is assigned an arbitrary colour from a predetermined set and all other connections can see the movement of that cursor.
+
+For optimization, I designed a flattening process in which there is a chronically scheduled task to flatten the individual set of vectors into a single image, so new connections would render the image instead of a whole slew of vectors. The image could also be stored into a database to represent the canvas state should the backend server become inactive.
+
+
+<h1>Responsibilities</h1>
+<ul>
+<li>Created a real-time collaboration canvas with cursor coloured presence indicators for each websocket connection and eraser, colour, opacity, scale tools</li>
+<li>Implemented this view for document viewer and powerpoint viewer for annotations that can be toggled on and off</li>
+</ul>
+

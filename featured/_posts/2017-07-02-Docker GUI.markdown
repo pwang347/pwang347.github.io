@@ -15,7 +15,9 @@ title: Docker GUI
 </table>
 
 <h1>Project description</h1>
-Docker GUI is a web control utility for managing Docker containers and images. While creating an graphical interface for Docker isn't a new idea, most (such as Kubernetes) are designed primarily for cluster orchestration, whereas the purpose of this tool is to provide a user-friendly interface for those unfamiliar with Docker.
+Work in progress!
+
+Docker GUI is a web control utility for managing Docker containers and images. While creating a graphical interface for Docker isn't a particularly new idea, most (such as Kubernetes) are designed primarily for cluster orchestration, whereas the purpose of this tool is to provide a user-friendly interface for those unfamiliar with Docker.
 
 The project is in part motivated by the frustration of some co-workers, and a sudden keen interest in Golang and ReactJS.
 
